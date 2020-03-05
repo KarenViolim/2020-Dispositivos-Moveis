@@ -8,6 +8,8 @@ import {FormsModule} from '@angular/forms';
 
 import { ObjetivoComponent } from './objetivo/objetivo.component'
 import { HelloComponent } from './hello/hello.component'
+import { ClienteModule } from './cliente/cliente.module';
+import { ProdutoModule } from './produto/produto.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { HelloComponent } from './hello/hello.component'
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule
+    FormsModule,
+    ClienteModule,
+    ProdutoModule
   ],
   providers: [],
   bootstrap: [AppComponent]
