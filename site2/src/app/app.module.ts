@@ -10,6 +10,7 @@ import { ObjetivoComponent } from './objetivo/objetivo.component'
 import { HelloComponent } from './hello/hello.component'
 import { ClienteModule } from './cliente/cliente.module';
 import { ProdutoModule } from './produto/produto.module';
+import { CalculadoraModule } from './calculadora/calculadora.module';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { ProdutoModule } from './produto/produto.module';
     AppRoutingModule,
     FormsModule,
     ClienteModule,
-    ProdutoModule
+    ProdutoModule,
+    CalculadoraModule
   ],
   providers: [],
   bootstrap: [AppComponent]
